@@ -1,0 +1,17 @@
+[rhel-8-appstream-rpms-x86_64]
+baseurl = http://pulp.dist.prod.ext.phx2.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/
+name = rhel-8-appstream-rpms-x86_64
+enabled = 1
+gpgcheck = 0
+
+[rhel-8-baseos-rpms-x86_64]
+baseurl = http://pulp.dist.prod.ext.phx2.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/
+name = rhel-8-baseos-rpms-x86_64
+enabled = 1
+gpgcheck = 0
+
+[rhel-8-server-ose-rpms-x86_64]
+baseurl = http://download.lab.bos.redhat.com/rcm-guest/puddles/RHAOS/AtomicOpenShift/4.4-el8/latest/x86_64/os
+name = rhel-8-server-ose-rpms-x86_64
+enabled = 1
+gpgcheck = 0
