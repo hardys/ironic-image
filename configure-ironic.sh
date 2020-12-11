@@ -41,7 +41,7 @@ export IRONIC_DEPLOYMENT="${IRONIC_DEPLOYMENT:-"Combined"}"
 export IRONIC_FAST_TRACK=${IRONIC_FAST_TRACK:-true}
 
 # Whether cleaning disks before and after deployment
-export IRONIC_AUTOMATED_CLEAN=${IRONIC_AUTOMATED_CLEAN:-true}
+export IRONIC_AUTOMATED_CLEAN=${IRONIC_AUTOMATED_CLEAN:-false}
 
 # Wheter to enable the sensor data collection
 export SEND_SENSOR_DATA=${SEND_SENSOR_DATA:-false}
